@@ -1,0 +1,111 @@
+div#title {
+  background-image: url(../img/samsung.jpg);
+  background-repeat: no-repeat;
+  height: 829px;
+  /*! height: calc(100% - 98px); */
+}
+div#title div.wrap {
+  height: 100%;
+  position: relative;
+  align-items: start;
+}
+div#title div.wrap ul.hash {
+  gap: 10px;
+  margin-bottom: 25px;
+}
+div#title div.wrap ul.hash li {
+  
+}
+div#title div.wrap h2 {
+  font-size: 75px;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px white;
+  color: #38a3fc;
+  margin-bottom: 50px;
+}
+div#title div.wrap P {
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+div#title div.wrap>a {
+  color: white;
+  padding: 15px 30px;
+  border-radius: 25px;
+  display: inline-block;
+  background-color: black;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+div#title div.wrap > a:hover {
+  color: black;
+}
+div#title div.wrap > a::after {
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+  transform: skewX(-30deg);
+  transform-origin: 0 0;
+  z-index: -1;
+}
+div#title div.wrap > a:hover::after {
+  width: 115%;
+}
+div#title div.wrap span.control {
+  position: absolute;
+  width: 100%;
+}
+div#title div.wrap span.control button {
+  
+}
+div#title div.wrap span.control button.prev {
+  transform: translateX(-200%);
+  font-size: 0;
+  width: 75px;
+  height: 75px;
+  background-image: url(../img/prev.svg);
+  border: none;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#title div.wrap span.control button.next {
+  transform: translateX(200%);
+  font-size: 0;
+  width: 75px;
+  height: 75px;
+  background-image: url(../img/next.svg);
+  border: none;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#title div.wrap ul.list {
+  position: absolute;
+  bottom: 50px;
+  justify-content: center;
+  width: 100%;
+  gap: 15px;
+  align-items: end;
+}
+div#title div.wrap ul.list li {
+  
+}
+div#title div.wrap ul.list li a {
+  display: block;
+  border-bottom: 2px solid rgba(0,0,0,0.5);
+  width: 110px;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0px;
+  position: relative;
+}

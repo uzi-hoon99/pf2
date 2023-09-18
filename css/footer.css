@@ -1,0 +1,71 @@
+section#footersub {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+section#footersub div.wrap {
+  
+}
+section#footersub div.wrap nav.sub {
+  display: flex;
+  justify-content: space-between;
+}
+section#footersub div.wrap nav.sub>ul {
+  padding: 30px;
+  border-left: 1px solid lightgray;
+  box-sizing: border-box;
+  height: 675px;
+  width: calc(100% / 6);
+}
+section#footersub div.wrap nav.sub ul h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+section#footersub div.wrap nav.sub ul li {
+  
+}
+section#footersub div.wrap nav.sub ul li a {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 300;
+}
+section#footersub div.wrap nav.sub div.foot1 {
+  padding: 30px;
+  border-left: 1px solid lightgray;
+  box-sizing: border-box;
+  height: 675px;
+  width: calc(100% / 6);
+}
+section#footersub div.wrap nav.sub div.foot1 ul {
+  padding-bottom: 60px;
+}
+section#footersub div.wrap nav.sub div.foot1 ul h3 {
+  
+}
+section#footersub div.wrap nav.sub div.foot1 ul li {
+  
+}
+section#footersub div.wrap nav.sub div.foot1 ul li a {
+  
+}
+section#footersub div.wrap nav.sub div.foot2 {
+  padding: 30px;
+  border-left: 1px solid lightgray;
+  box-sizing: border-box;
+  height: 675px;
+  border-right: 1px solid lightgray;
+  width: calc(100% / 6);
+}
+section#footersub div.wrap nav.sub div.foot2 ul {
+  padding-bottom: 60px;
+}
+section#footersub div.wrap nav.sub div.foot2 ul h3 {
+  
+}
+section#footersub div.wrap nav.sub div.foot2 ul li {
+  
+}
+section#footersub div.wrap nav.sub div.foot2 ul li a {
+  
+}

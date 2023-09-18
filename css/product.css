@@ -1,0 +1,110 @@
+section#product {
+  height: calc(100% - 98px);
+  height: 829px;
+}
+section#product div.wrap {
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 30px;
+}
+section#product div.wrap ul.list {
+  width: 100%;
+  gap: 50px;
+  align-items: end;
+}
+section#product div.wrap ul.list li {
+  
+}
+section#product div.wrap ul.list li a {
+  display: block;
+  border-bottom: 2px solid rgba(0,0,0,0.5);
+  width: 135px;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+}
+section#product div.wrap ul.leftcon {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+section#product div.wrap ul.leftcon li {
+  
+}
+section#product div.wrap ul.leftcon li:nth-child(1) {
+  background-image: url(../img/con1.png)
+}
+section#product div.wrap ul.leftcon li:nth-child(2) {
+  background-image: url(../img/con2.png)
+}
+section#product div.wrap ul.leftcon li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  row-gap: 15px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  height: 100%;
+}
+section#product div.wrap ul.leftcon li a h3 {
+  
+}
+section#product div.wrap ul.leftcon li a span {
+  
+}
+section#product div.wrap ul.leftcon li a p {
+  color: #006ff2;
+  font-weight: 500;
+}
+section#product div.wrap div.midcon {
+  width: 650px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  line-height: 3;
+  background-image: url(../img/sssss.png);
+  background-size: contain;
+}
+section#product div.wrap div.midcon h2 {
+  font-size: 55px;
+  font-weight: 700;
+}
+section#product div.wrap div.midcon p {
+  font-size: 20px;
+}
+section#product div.wrap ul.rightcon {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+section#product div.wrap ul.rightcon li {
+  
+}
+section#product div.wrap ul.rightcon li:nth-child(1) {
+  background-image: url(../img/con3.png)
+}
+section#product div.wrap ul.rightcon li:nth-child(2) {
+  background-image: url(../img/con2.png)
+}
+section#product div.wrap ul.rightcon li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  row-gap: 15px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  height: 100%;
+}
+section#product div.wrap ul.rightcon li a h3 {
+  
+}
+section#product div.wrap ul.rightcon li a span {
+  
+}
+section#product div.wrap ul.rightcon li a p {
+  color: #006ff2;
+  font-weight: 500;
+}

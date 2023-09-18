@@ -1,0 +1,59 @@
+section#story {
+  
+}
+section#story div.wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+section#story div.wrap p {
+  font-size: 75px;
+  font-weight: 700;
+}
+section#story div.wrap h2{
+  display: flex;
+  flex-direction: column;
+  font-size: 45px;
+  font-weight: 700;
+}
+section#story div.wrap ul {
+  display: flex;
+  flex-direction: column;
+}
+section#story div.wrap ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 25px 0px;
+  border-bottom: 1px solid;
+}
+section#story div.wrap ul li:last-child {
+  border: none;
+}
+section#story div.wrap ul li h3 {
+  font-size: 25px;
+}
+section#story div.wrap ul li h3 span {
+  
+}
+section#story div.wrap ul li a {
+  font-size: 0;
+  width: 342px;
+  height: 256px;
+  border-radius: 25px;
+  background-size: 100%;
+}
+section#story div.wrap ul li:nth-child(1) a {
+  background-image: url(../img/story1.jpg);
+}
+section#story div.wrap ul li:nth-child(2) a {
+  background-image: url(../img/story2.jpg);
+}
+section#story div.wrap ul li:nth-child(3) a {
+  background-image: url(../img/story3.jpg);
+}
+section#story div.wrap ul li:nth-child(4) a {
+  background-image: url(../img/story4.jpg);
+}

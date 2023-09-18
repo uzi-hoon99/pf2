@@ -1,0 +1,44 @@
+section#slide {
+  height: 829px;
+  /*! height: calc(100% - 98px); */
+}
+section#slide div.slidecon {
+  height: 100%;
+}
+section#slide div.slidecon ul {
+  height: 100%;
+}
+section#slide div.slidecon ul li {
+  width: calc(100% / 4);
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+section#slide div.slidecon ul li:nth-child(1) {
+  background-image: url(../img/mobiletitle.jpg);
+}
+section#slide div.slidecon ul li:nth-child(2) {
+  background-image: url(../img/pctitle.jpg);
+}
+section#slide div.slidecon ul li:nth-child(3) {
+  background-image: url(../img/tvtitle.jpg);
+  background-position: right;
+}
+section#slide div.slidecon ul li:nth-child(4) {
+  background-image: url(../img/hometitle.jpg);
+  background-position-x: -250px;
+}
+section#slide div.slidecon ul li a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  line-height: 2;
+  transition: all 0.5s;
+  font-weight: 500;
+}
+section#slide div.slidecon ul li a:hover{
+  background-color: rgba(0,0,0,0.7);
+}

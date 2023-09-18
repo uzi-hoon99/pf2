@@ -1,0 +1,99 @@
+section#trend {
+  
+}
+section#trend div.wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+section#trend div.wrap h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+section#trend div.wrap h2 span {
+  font-size: 16px;
+}
+section#trend div.wrap div.trendbun {
+  
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+section#trend div.wrap div.trendbun ul {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+section#trend div.wrap div.trendbun ul li {
+  display: flex;
+  flex-direction: column;
+}
+section#trend div.wrap div.trendbun ul li a {
+  font-size: 0;
+  width: 448px;
+  background-size: 100%;
+  background-position: center;
+  transition: all 0.75s;
+  border-radius: 25px;
+}
+section#trend div.wrap div.trendbun ul li a:hover {
+  background-size: 110%;
+}
+section#trend div.wrap div.trendbun ul li h3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 2;
+  margin-top: 15px;
+}
+section#trend div.wrap div.trendbun ul li h3 span {
+  font-size: 16px;
+  font-weight: 300;
+}
+section#trend div.wrap div.trendbun ul li p {
+  font-weight: 300;
+  font-size: 15px;
+  color: gray;
+  line-height: 1.5;
+}
+section#trend div.wrap div.trendbun ul.trendl {
+  
+}
+section#trend div.wrap div.trendbun ul.trendl li:nth-child(1) a {
+  background-image: url(../img/trend1.jpg);
+  height: 590px;
+}
+section#trend div.wrap div.trendbun ul.trendl li:nth-child(2) a {
+  background-image: url(../img/trend2.png);
+  height: 440px;
+}
+section#trend div.wrap div.trendbun ul.trendm {
+  
+}
+section#trend div.wrap div.trendbun ul.trendm li:nth-child(1) a {
+  background-image: url(../img/trend3.jpg);
+  height: 280px;
+}
+section#trend div.wrap div.trendbun ul.trendm li:nth-child(2) a {
+  background-image: url(../img/trend4.png);
+  height: 590px;
+}
+section#trend div.wrap div.trendbun ul.trendr {
+  
+}
+section#trend div.wrap div.trendbun ul.trendr li:nth-child(1) a {
+  background-image: url(../img/trend5.jpg);
+  height: 440px;
+}
+section#trend div.wrap div.trendbun ul.trendr li:nth-child(2) a {
+  background-image: url(../img/trend6.jpg);
+  height: 440px;
+}

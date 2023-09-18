@@ -1,0 +1,113 @@
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1500;
+}
+header div.menuall {
+  gap: 10px;
+  padding: 15px 0;
+}
+header div.menuall div.menutop {
+}
+header div.menuall div.menutop h1 {
+}
+header div.menuall div.menutop h1 a {
+  background-image: url(../img/logo.svg);
+  font-size: 0;
+  width: 125px;
+  height: 20px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header div.menuall div.menutop div.righttop {
+  
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header div.menuall div.menutop div.righttop form {
+  background-color: lightgray;
+  padding: 5px 15px;
+  border-radius: 17.5px;
+  display: flex;
+  width: 250px;
+}
+header div.menuall div.menutop div.righttop ul.menuux {
+  gap: 15px;
+}
+header div.menuall div.menutop div.righttop ul.menuux li {
+  
+}
+header div.menuall div.menutop div.righttop ul.menuux li a {
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+header div.menuall div.menutop div.righttop ul.menuux li a.cart {
+  background-image: url(../img/ccart.svg);
+}
+header div.menuall div.menutop div.righttop ul.menuux li a.user {
+  background-image: url(../img/uuser.svg);
+}
+header div.menuall div.menutop div.righttop form input {
+  background-color: transparent;
+  border: none;
+  width: calc(100% - 25px);
+}
+header div.menuall div.menutop form button.search {
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/search.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+header div.menuall div.menubtm {
+  
+}
+header div.menuall div.menubtm nav.gnb {
+  
+}
+header div.menuall div.menubtm nav.gnb ul.gnbleft {
+  
+}
+header div.menuall div.menubtm nav.gnb ul.gnbleft li {
+  
+}
+header div.menuall div.menubtm nav.gnb ul.gnbleft li a {
+  display: block;
+  line-height: 2;
+  padding: 0 10px;
+  font-size: 14px;
+}
+header div.menuall div.menubtm nav.gnb ul.gnbleft li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 14px;
+}
+header div.menuall div.menubtm nav.gnb ul.gnbright {
+}
+header div.menuall div.menubtm nav.gnb ul.gnbright li {
+  
+}
+header div.menuall div.menubtm nav.gnb ul.gnbright li a {
+  display: block;
+  line-height: 2;
+  padding: 0 10px;
+  font-size: 14px;
+}
+header div.menuall div.menubtm nav.gnb ul.gnbright li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 14px;
+}

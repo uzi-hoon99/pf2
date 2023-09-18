@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(주)삼성전자 홈페이지</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/trend.css">
+    <link rel="stylesheet" href="css/story.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/address.css">
+    <!-- 구글 폰트  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("aside a.more").click(function(){
+                $("aside ul.asidemenu").toggleClass("hide");
+                $("aside a.more").toggleClass("asideon");
+                return false;
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- 상단 영역 -->
+    <header>
+        <div class="menuall wrap flex flex-column">
+            <div class="menutop flex flex-between flex-align-center">
+                <h1>
+                    <a href="">SAMSUNG</a>
+                </h1>
+                <div class="righttop">
+                    <form action="">
+                        <input type="text">
+                        <button class="search">검색</button>
+                    </form>
+                    <ul class="menuux flex">
+                        <li><a href="" class="cart">장바구니</a></li>
+                        <li><a href="" class="user">사용자</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menubtm">
+                <nav class="gnb flex flex-between">
+                    <ul class="gnbleft flex">
+                        <li><a href="">모바일</a></li>
+                        <li><a href="">TV&오디오</a></li>
+                        <li><a href="">주방가전</a></li>
+                        <li><a href="">리빙가전</a></li>
+                        <li><a href="">PC/주변기기</a></li>
+                        <li><a href="">소모품</a></li>
+                        <li><a href="">스마트싱스</a></li>
+                        <li><a href="">#YouMake</a></li>
+                        <li><a href="">삼성닷컴추천</a></li>
+                        <li><a href="">아울렛</a></li>
+                        <li><a href="">#Samsung Experience</a></li>
+                    </ul>
+                    <ul class="gnbright flex">
+                        <li><a href="">고객지원</a></li>
+                        <li><a href="">비즈니스</a></li>
+                        <li><a href="">삼성 강남</a></li>
+                        <li><a href="">삼성스토어</a></li>
+                        <li><a href="">지속가능경영 </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- 타이틀 영역 -->
+    <div id="title">
+        <div class="wrap flex flex-column flex-center">
+            <ul class="hash flex">
+                <li>#무풍당당</li>
+                <li>#여름맞이특가</li>
+                <li>#최대41%할인</li>
+            </ul>
+            <h2>에어컨 쿨 썸머 페스타</h2>
+            <p>올여름, 삼성 에어컨 베스트 모델로<br />우리 집을 쾌적하고 시원하게 바꾸보세요!</p>
+            <a href="">구매 혜택 보기</a>
+            <span class="control flex flex-between">
+                <button class="prev">이전보기</button>
+                <button class="next">다음보기</button>
+            </span>
+            <ul class="list flex">
+                <li><a href="">에어컨 쿨 썸머 페스타</a></li>
+                <li><a href="">#YouMake</a></li>
+                <li><a href="">절전 가전 페스타</a></li>
+                <li><a href="">Galaxy S23 Series</a></li>
+                <li><a href="">무풍 시스템에어컨 Infinite Line</a></li>
+                <li><a href="">뷰피니티 S9 | 오디세이 G9</a></li>
+                <li><a href="">삼성닷컴 월간TV</a></li>
+                <li><a href="">BESPOKE 냉장고</a></li>
+                <li><a href="">번개특가</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 메인 영역 -->
+    <main>
+        <section id="product">
+            <div class="wrap flex flex-center">
+                <ul class="list flex flex-center">
+                    <li><a href="">에어컨 쿨 썸머 페스타</a></li>
+                    <li><a href="">#YouMake</a></li>
+                    <li><a href="">삼성케어플러스</a></li>
+                    <li><a href="">중고가전 추가보상</a></li>
+                    <li><a href="">Samsung Experience</a></li>
+                    <li><a href="">삼성닷컴 정기플랜</a></li>
+                </ul>
+                <ul class="leftcon">
+                    <li class="rbox bgimg">
+                        <a href="">
+                            <h3>에어컨 Q9000<br>(56.9 ㎡ + 18.7 ㎡)</h3>
+                            <span>AF17B6474WSRT</span>
+                            <p>쿠폰적용가 1,749,000 원</p>
+                        </a>
+                    </li>
+                    <li class="rbox bgimg">
+                        <a href="">
+                            <h3>BESPOKE 무풍에어컨 갤러리 청정<br>(58.5 ㎡ + 18.7 ㎡)</h3>
+                            <span>AF18CX839WSRT</span>
+                            <p>쿠폰적용가 2,899,000 원</p>
+                        </a>
+                    </li>
+                </ul>
+                <div class="midcon rbox">
+                    <h2>에어컨 쿨 썸머 페스타</h2>
+                    <p>최대 41% 할인 혜택과 함께 뜨거운 여름을 준비하세요!</p>
+                </div>
+                <ul class="rightcon">
+                    <li class="rbox bgimg">
+                        <a href="">
+                            <h3>무풍에어컨 클래식<br>(58.5 ㎡ + 18.7 ㎡)</h3>
+                            <span>AF18B9937RZRT</span>
+                            <p>혜택가 2,349,000 원</p>
+                        </a>
+                    </li>
+                    <li class="rbox bgimg">
+                        <a href="">
+                            <h3>BESPOKE 무풍에어컨 갤러리<br>(58.5㎡ + 18.7 ㎡)</h3>
+                            <span>AF18CX839EZRT</span>
+                            <p>쿠폰적용가 2,799,000 원</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="slide">
+            <div class="slidecon">
+                <ul class="flex">
+                    <li><a href="">모바일</a></li>
+                    <li><a href="">PC</a></li>
+                    <li><a href="">TV</a></li>
+                    <li><a href="">가전</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="trend">
+            <div class="wrap">
+                <h2><span>WHAT'S HAPPENING @SAMSUNG.COM</span>트렌드</h2>
+                <div class="trendbun">
+                    <ul class="trendl">
+                        <li>
+                            <a href="">img</a>
+                            <h3><span>EXPERIENCE</span>갤럭시 얼리버드 To Go</h3>
+                            <p>새로운 갤럭시를 누구보다 먼저, 내 폰처럼!</p>
+                        </li>
+                        <li>
+                            <a href="">img</a>
+                            <h3><span>EXPERIENCE</span>BESPOKE 홈 메타</h3>
+                            <p>우리집에 어울리는 삼성가전을 3D로 경험해보세요</p>
+                        </li>
+                    </ul>
+                    <ul class="trendm">
+                        <li>
+                            <a href="">img</a>
+                            <h3><span>RECOMMENDED</span>MY 삼성제품 추천받기</h3>
+                            <p>제품 구매가 고민 된다면 나에게 딱 맞는 제품을 추천받아 보세요</p>
+                        </li>
+                        <li>
+                            <a href="">img</a>
+                            <h3><span>EXPERIENCE</span>삼성스토어 VR</h3>
+                            <p>언제 어디서나 3D VR 스토어에서 제품 정보부터 상담까지 편하게<br>체험해보세요</p>
+                        </li>
+                    </ul>
+                    <ul class="trendr">
+                        <li>
+                            <a href="">img</a>
+                            <h3><span>EXPERIENCE</span>에너지 계산기 체험하기</h3>
+                            <p>에너지 계산기를 활용해 가전 제품의 평균 전력 소비량을 빠르고<br>간단하게 확인해보세요!</p>
+                        </li>
+                        <li>
+                            <a href="">img</a>
+                            <h3><span>SUPPORT</span>스토어 상담 예약</h3>
+                            <p>맞춤 상담을 예약하고 삼성전자가 제안하는 라이프스타일을 직접<br>체험해보세요</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="story">
+            <div class="wrap">
+                <h2>스토리<span>#DoWhatYouCant</span></h2>
+                <ul>
+                    <li>
+                        <p>01</p>
+                        <h3>#BESPOKE가 집의 모든 순간을<br>나답게 만드는 방법</h3>
+                        <a href="">더 알아보기</a>
+                    </li>
+                    <li>
+                        <p>02</p>
+                        <h3>#뛰어난 디자인과 기술로 모두를 사로잡은<br>삼성의 수상 제품을 만나보세요</h3>
+                        <a href="">더 알아보기</a>
+                        
+                    </li>
+                    <li>
+                        <p>03</p>
+                        <h3>#우리 집이 영화관이 되는 순간</h3>
+                        <a href="">더 알아보기</a>
+                    </li>
+                    <li>
+                        <p>04</p>
+                        <h3>#호기심 가득한, 조금은 특이한<br>G·NUSMAS를 소개합니다</h3>
+                        <a href="">더 알아보기</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- 푸터 영역 -->
+    <footer>
+        <section id="footersub">
+            <div class="wrap">
+                <nav class="sub">
+                    <ul>
+                        <h3>제품</h3>
+                        <li><a href="">갤럭시</a></li>
+                        <li><a href="">스마트폰</a></li>
+                        <li><a href="">태블릿</a></li>
+                        <li><a href="">워치</a></li>
+                        <li><a href="">버즈</a></li>
+                        <li><a href="">갤럭시북</a></li>
+                        <li><a href="">모니터</a></li>
+                        <li><a href="">프린터</a></li>
+                        <li><a href="">메모리/스토리지</a></li>
+                        <li><a href="">TV</a></li>
+                        <li><a href="">Lifestyle TV</a></li>
+                        <li><a href="">사운드바</a></li>
+                        <li><a href="">하만</a></li>
+                        <li><a href="">BESPOKE</a></li>
+                        <li><a href="">냉장고</a></li>
+                        <li><a href="">김치냉장고</a></li>
+                        <li><a href="">식기세척기</a></li>
+                    </ul>
+                    <ul>
+                        <h3> </h3>
+                        <li><a href="">전기레인지</a></li>
+                        <li><a href="">오븐/전자레인지</a></li>
+                        <li><a href="">큐커</a></li>
+                        <li><a href="">정수기</a></li>
+                        <li><a href="">세탁기</a></li>
+                        <li><a href="">건조기</a></li>
+                        <li><a href="">에어드레서</a></li>
+                        <li><a href="">슈드레서</a></li>
+                        <li><a href="">에어컨</a></li>
+                        <li><a href="">공기청정기</a></li>
+                        <li><a href="">청소기</a></li>
+                        <li><a href="">스마트싱스</a></li>
+                        <li><a href="">액세서리 & 소모품</a></li>
+                        <li><a href="">데이코</a></li>
+                    </ul>
+                    <ul>
+                        <h3>이벤트/선물하기</h3>
+                        <li><a href="">기획전 모두보기</a></li>
+                        <li><a href="">삼성닷컴 단독</a></li>
+                        <li><a href="">선물하기</a></li>
+                        <li><a href="">공동구매</a></li>
+                        <li><a href="">아울렛</a></li>
+                        <li><a href="">갤럭시 캠퍼스</a></li>
+                        <li><a href="">삼성닷컴 Live</a></li>
+                        <li><a href="">웨딩,신혼샵</a></li>
+                        <li><a href="">커스텀 스튜디오</a></li>
+                        <li><a href="">스토어 진열 할인 제품</a></li>
+                        <li><a href="">닷컴 회원 혜택</a></li>
+                        <li><a href="">이벤트존</a></li>
+                        <li><a href="">e식품관</a></li>
+                        <li><a href="">MD 초이스 샵</a></li>
+                        <li><a href="">홈클래스</a></li>
+                        <li><a href="">스토리</a></li>
+                    </ul>
+                    <ul>
+                        <h3>고객서비스</h3>
+                        <li><a href="">매뉴얼 & 다운로드</a></li>
+                        <li><a href="">삼성닷컴 FAQ</a></li>
+                        <li><a href="">매장 찾기</a></li>
+                        <li><a href="">서비스센터 찾기</a></li>
+                        <li><a href="">Samsung Care+ (모바일/PC)</a></li>
+                        <li><a href="">Samsung Care+ (가전/TV)</a></li>
+                        <li><a href="">삼성스토어</a></li>
+                        <li><a href="">삼성전자 멤버십</a></li>
+                        <li><a href="">MD 비즈니스 협력제안</a></li>
+                        <li><a href="">비즈니스 협력제안</a></li>
+                        <li><a href="">삼성멤버스 커뮤니티</a></li>
+                        <li><a href="">E-카탈로그</a></li>
+                        <li><a href="">삼성닷컴 경험조사</a></li>
+                    </ul>
+                    <div class="foot1">
+                        <ul>
+                            <h3>지속가능경영</h3>
+                            <li><a href="">환경</a></li>
+                            <li><a href="">보안 & 개인정보 보호</a></li>
+                            <li><a href="">접근성</a></li>
+                            <li><a href="">다양성 · 형평성 · 포용성</a></li>
+                            <li><a href="">사회공헌</a></li>
+                            <li><a href="">Corporate Sustainability</a></li>
+                        </ul>
+                        <ul>
+                            <h3>윤리&준법경영</h3>
+                            <li><a href="">경영원칙</a></li>
+                            <li><a href="">부정제보</a></li>
+                            <li><a href="">법위반제보</a></li>
+                        </ul>
+                    </div>
+                    <div class="foot2">
+                        <ul>
+                            <h3>회사소개</h3>
+                            <li><a href="">기업정보</a></li>
+                            <li><a href="">사업정보</a></li>
+                            <li><a href="">브랜드 아이덴티티</a></li>
+                            <li><a href="">채용</a></li>
+                            <li><a href="">투자자 정보</a></li>
+                            <li><a href="">뉴스룸</a></li>
+                            <li><a href="">윤리</a></li>
+                            <li><a href="">디자인 삼성</a></li>
+                            <li><a href="">배당조회</a></li>
+                            <li><a href="">공지사항</a></li>
+                        </ul>
+                        <ul>
+                            <h3>부가정보</h3>
+                            <li><a href="">협력회사 사이버 신문고</a></li>
+                            <li><a href="">폐카트리지 회수신청</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <section id="address">
+            <div class="wrap">
+                <p>
+                    <span>삼성전자 주식회사 대표이사 : 한종희</span>
+                    <span>사업자등록번호 : 124-81-00998</span>
+                    <span><a href="">사업자 정보확인</a></span>
+                    <span>통신판매업 신고 : 2000-경기수원-0515</span>
+                    <br>
+                    <span>사업장주소 : 경기도 수원시 영통구 삼성로 129(매탄동)</span>
+                    <span>호스팅서비스사업자 : 한국아이비엠(주)</span>
+                    <span>대표번호 : 02-2255-0114</span>
+                    <span>제품/서비스/멤버십: 1588-3366(통화요금 : 발신자부담)</span>
+                    <span>구매문의 : 1588-6084</span>
+                    <span>e식품관 문의 : 1811-9228</span>
+                </p>
+                <p>
+                    본 사이트에서 판매되는 상품 중에는 등록된 개별 판매자가 판매하는 상품이 포함되어 있습니다.
+                    <br>개별 판매자 판매 상품의 경우 삼성전자(주)는 통신판매중개업자로서 통신판매의 당사자가 아니므로, 개별 판매자가 등록한 상품, 거래정보 및 거래 등에 대해 책임을 지지 않습니다.
+                    <span><a href="">소비자분쟁해결기준</a></span>
+                </p>
+                <p>본 사이트의 컨텐츠는 저작권법의 보호를 받는 바 무단 전재, 복사, 배포 등을 금합니다.</p>
+            </div>
+        </section>
+        <section id="popo">
+            <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</p>
+        </section>
+    </footer>
+    <aside>
+        <ul class="asidemenu hide">
+            <li><a href="#">매장 방문 예약하기</a></li>
+            <li><a href="#">구매 상담사 채팅하기</a></li>
+            <li><a href="#">챗봇 채팅하기</a></li>
+        </ul>
+        <a href="#" class="more">더보기</a>
+        <a href="#" class="top">맨위로 가기</a>
+    </aside>
+</body>
+</html>
