@@ -1,1 +1,12 @@
-# pf2
+# 프로젝트 명 : UZI 포트폴리오 홈페이지
+https://uzi-hoon99.github.io/pf2/
+
+## 기술 스텍
+- HTML
+- CSS
+
+## 스크린샷
+![samsungre](https://github.com/uzi-hoon99/pf2/assets/142555239/fe1bc3f4-bff1-486e-86dc-30618939c785)
+
+## 작성자 정보
+메일 : woojihun5168@gmail.com
